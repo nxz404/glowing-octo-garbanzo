@@ -1,3 +1,63 @@
-p{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+
+}
+.container{
+    max-width: 1200px;
+    padding: 20px;
+    display: grid;
+    flex-direction: column;
+}
+#caixa{
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#me, #foto{
+    display: inline-flex;
+    vertical-align: middle;
+
+}
+#me{
+    font-size: 130%;
+    text-decoration: underline;
+    text-decoration-color: #e95cff;
+    text-decoration-thickness: 3px;
+
+}
+#foto img{
+    border-radius: 100%;
+    margin-left: 13%;
+}
+#banner_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4%;
+    margin-bottom: 2%;
+}
+#banner_div img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4%;
+    border: 3px solid #e95cff;
+}
+#rodape{
+    font-size: 80%;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2%;
+}
+
